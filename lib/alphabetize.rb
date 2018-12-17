@@ -9,7 +9,7 @@ def alphabetize(arr)
   arr.sort_by do |phrase|
     phrase.split(" ").map do |word|
       word.split(" ").map do |letter|
-      binding.pry
+        binding.pry
 
         esp_alphabet.index(letter)
       end
