@@ -1,12 +1,12 @@
 def alphabetize(arr)
   # code here
 
-  ESP_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esp_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   #use .index method to get the index of the letter?
 
   arr.sort_by do |word|
     word.split(" ").collect do |letter|
-      ESP_ALPHABET.index(letter)
+      esp_alphabet.index(letter)
     end
   end
 
