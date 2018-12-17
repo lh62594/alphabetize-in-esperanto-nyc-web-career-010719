@@ -5,7 +5,7 @@ def alphabetize(arr)
   #use .index method to get the index of the letter?
 
   arr.sort_by do |word|
-    word.split(" ").collect do |letter|
+    word.split(" ").map do |letter|
       esp_alphabet.index(letter)
     end
   end
