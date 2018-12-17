@@ -1,6 +1,6 @@
 def alphabetize(arr)
   # code here
 
-  esperanto_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  
+  esp_alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
 end
